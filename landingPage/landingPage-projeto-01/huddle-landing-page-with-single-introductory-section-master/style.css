@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 210px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.mockup {
+    width: 50%;
+    max-width: 900px;
+}
+
+.content {
+    width: 40%;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px; 
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.register {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 10px 40px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+a {
+    margin-right: 10px;
+    fill: white;
+    transition: 0.4s;
+}
+
+a:hover {
+    fill: hsl(300, 69%, 71%);
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-image: url(./images/bg-mobile.svg);
+       
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mockup {
+        width: 80%;
+    }
+    .content {
+        width: 80%;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 30px; 
+    }
+    
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+    }
+    
+    .register {
+        width: 50%;
+        font-size: 1.3rem;
+        border-radius: 40px;
+        min-width: 200px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 5px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .logo {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 4.2rem;
+        margin-bottom: 30px; 
+    }
+    
+    p {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .register {
+        font-size: 1.8rem;
+    }
+}

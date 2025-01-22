@@ -103,7 +103,7 @@ a:hover {
 
     body {
         background-image: url(./images/bg-mobile.svg);
-       
+        height: 100%;       
     }
 
     .container {
@@ -125,6 +125,7 @@ a:hover {
     p {
         font-size: 1.6rem;
         margin-bottom: 40px;
+        font-weight: 200;
     }
     
     .register {
@@ -143,6 +144,23 @@ a:hover {
     
 
 }
+
+
+@media screen and (max-width: 930px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .svg-social {
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+
+
 
 @media screen and (min-width: 1400px) {
 

@@ -12,3 +12,11 @@ body {
     max-width: 1440px;
     height: auto;
 }
+
+.container {
+    background-color: white;
+}
+
+.title{
+    display: flex;
+}

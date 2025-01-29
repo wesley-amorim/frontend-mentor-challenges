@@ -53,6 +53,10 @@ body {
     margin-top: 16px;
 }
 
+.common-plus-icon {
+    display: block;
+}
+
 .common-minus-icon {
     display: none;
 }
@@ -71,4 +75,3 @@ body {
     color: rgb(133, 34, 133);
     transition: 0.4s;
 }
-

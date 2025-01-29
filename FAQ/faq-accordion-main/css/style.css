@@ -6,11 +6,10 @@
 
 body {
     background-color: var(--LightPink);
-    max-width: 1440px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--DarkPurple);
@@ -21,7 +20,7 @@ h1 {
 }
 
 .background {
-    position: absolute;
+    position: fixed;
     top: 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,7 +30,7 @@ h1 {
 
 .container {
     background-color: white;
-    width: 600px;
+    width: 600px auto;
     max-height: 500px;
     padding: 30px;
     position: absolute;
@@ -82,4 +81,22 @@ h1 {
     cursor: pointer;
     color: rgb(218, 110, 218);
     transition: 0.4s;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    
+
+        
+    .container {
+        width: auto;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

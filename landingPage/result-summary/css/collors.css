@@ -1,0 +1,21 @@
+:root {
+    --LightRed: hsla(0, 100%, 67%, 0.1);
+    --DarkLightRed: hsla(0, 100%, 67%, 0.7);
+    --OrangeyYellow: hsla(39, 100%, 56%, 0.1);
+    --DarkOrangeyYellow: hsla(39, 100%, 56%, 0.7);
+    --GreenTeal: hsla(166, 100%, 37%, 0.1);
+    --DarkGreenTeal: hsla(166, 100%, 37%, 0.7);
+    --CobaltBlue: hsla(234, 100%, 45%, 0.1);
+    --DarkCobaltBlue: hsla(234, 100%, 45%, 0.7);
+
+    --LightSlateBlue: hsl(252, 100%, 67%);
+    --LightRoyalBlue: hsl(241, 81%, 54%);
+    --VioletBlue: hsla(256, 72%, 46%, 1);
+    --PersianBlue: hsla(241, 72%, 46%, 1);
+
+    --White: hsl(0, 0%, 100%);
+    --PaleBlue: hsl(221, 100%, 96%);
+    --LightLavender: hsl(241, 100%, 89%);
+    --DarkGrayBlue: hsl(224, 30%, 27%);
+    --OnClickDarkGrayBlue: hsl(224, 60%, 27%);
+}
